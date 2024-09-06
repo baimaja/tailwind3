@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
+
 <body>
     <!-- PROMOTION COMPONENT -->
-    <div class="bg-indigo-600 px-4 py-3 text-white">
+    <div
+        class="bg-indigo-600 px-4 py-3 text-white  shadow-md transform transition-transform duration-300 hover:scale-105">
         <p class="text-center text-sm font-medium">
             PROMO HINGGA 50%
-            <a href="#" class="inline-block underline">Berlaku untuk tangal 17-20 april !!!</a>
+            <a href="#" class="inline-block underline hover:text-indigo-300">
+                Berlaku untuk tanggal 17-20 April !!!
+            </a>
         </p>
     </div>
     <!-- END PROMOTION COMPONENT -->
 
+
     <!-- NAVBAR COMPONENT -->
-    <header class="bg-white">
-        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+    <header class="bg-white shadow-md">
+        <div class="mx-auto max-w-screen-xl px-4 py-6 sm:px-6 sm:py-10 lg:px-8">
             <div class="flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
                 <div>
-                    <a href="index.html" class="text-2xl font-bold text-gray-900 sm:text-3xl">baimstore</a>
-
-                    <p class="mt-1.5 text-sm text-gray-500">
-                        Belanja barang langka dan menarik plus murah hanya di sini
+                    <a href="index.html" class="text-2xl font-bold text-gray-900 sm:text-3xl">BaimStore</a>
+                    <p class="mt-2 text-sm text-gray-600">
+                        Belanja baju impor original distro murah dan berkualitas!
                     </p>
                 </div>
 
                 <div class="flex items-center gap-4">
-                    <button
-                        class="inline-flex items-center justify-center gap-1.5 rounded border border-gray-200 bg-white px-5 py-3 text-gray-900 transition hover:text-gray-700 focus:outline-none focus:ring"
-                        type="button">
-                        <span class="text-sm font-medium"> Cara Belanja </span>
-                    </button>
+                    <a href="cara-belanja.html"
+                        class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-300 bg-white px-5 py-3 text-gray-900 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-400">
+                        <span class="text-sm font-medium">Cara Belanja</span>
+                    </a>
 
-                    <A href="chat-admin.html"
-                        class="inline-block rounded bg-indigo-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
-                        type="button">
+                    <a href="chat-admin.html"
+                        class="inline-block rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white transition-colors duration-300 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-400">
                         Chat Admin
-                    </A>
+                    </a>
                 </div>
             </div>
         </div>
@@ -47,23 +50,24 @@
     <!-- END NAVBAR COMPONENT -->
 
     <!-- QUESTIONS -->
-    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4">
-        <details class="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
-            <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                <h2 class="text-lg font-medium">1. Jelajahi Katalog Kami</h2>
+    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4 py-6 shadow-md">
+        <details class="group p-6 rounded-lg transition-shadow duration-300 ease-in-out hover:shadow-lg">
+            <summary class="flex cursor-pointer items-center justify-between gap-2 text-gray-900">
+                <h2
+                    class="text-lg font-semibold transition-transform duration-300 group-open:transform group-open:scale-105">
+                    1. Kunjungi Toko Kami</h2>
 
-                <span class="relative size-5 shrink-0">
+                <span class="relative size-5 shrink-0 flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
+                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0 transition-opacity duration-300"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-            
 
                     <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
+                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100 transition-opacity duration-300"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
@@ -71,31 +75,29 @@
             </summary>
 
             <p class="mt-4 leading-relaxed text-gray-700">
-                Mulailah dengan menelusuri koleksi produk baju yang kami sediakan. Gunakan fitur pencarian atau filter kategori
-                untuk menemukan produk yang sesuai dengan kebutuhan Anda.
+                Kunjungi lokasi fisik toko kami untuk menjelajahi berbagai koleksi baju distro terbaru. Temukan produk
+                yang sesuai dengan gaya dan kebutuhan Anda di ruang yang nyaman dan stylish.
             </p>
-
-            
-
-
-
+        </details>
     </div>
-    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4">
-        <details class="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
-            <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                <h2 class="text-lg font-medium">2. Pilih Produk</h2>
+    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4 py-6 shadow-md">
+        <details class="group p-6 rounded-lg transition-shadow duration-300 ease-in-out hover:shadow-lg">
+            <summary class="flex cursor-pointer items-center justify-between gap-2 text-gray-900">
+                <h2
+                    class="text-lg font-semibold transition-transform duration-300 group-open:transform group-open:scale-105">
+                    2. Pilih Produk Favorit Anda</h2>
 
-                <span class="relative size-5 shrink-0">
+                <span class="relative size-5 shrink-0 flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
+                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0 transition-opacity duration-300"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
 
                     <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
+                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100 transition-opacity duration-300"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
@@ -103,29 +105,29 @@
             </summary>
 
             <p class="mt-4 leading-relaxed text-gray-700">
-                Klik pada produk yang menarik minat Anda untuk melihat detailnya. Kami menyediakan informasi lengkap
-                mengenai spesifikasi, fitur, dan harga untuk membantu Anda membuat keputusan yang tepat.
+                Jelajahi koleksi baju distro kami yang bervariasi. Gunakan panduan ukuran dan deskripsi produk untuk
+                menemukan item yang paling sesuai dengan preferensi dan kebutuhan Anda.
             </p>
-
-
-
+        </details>
     </div>
-    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4">
-        <details class="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
-            <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                <h2 class="text-lg font-medium">3. Tambahkan ke Keranjang</h2>
+    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4 py-6 shadow-md">
+        <details class="group p-6 rounded-lg transition-shadow duration-300 ease-in-out hover:shadow-lg">
+            <summary class="flex cursor-pointer items-center justify-between gap-2 text-gray-900">
+                <h2
+                    class="text-lg font-semibold transition-transform duration-300 group-open:transform group-open:scale-105">
+                    3. Coba dan Pilih</h2>
 
-                <span class="relative size-5 shrink-0">
+                <span class="relative size-5 shrink-0 flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
+                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0 transition-opacity duration-300"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
 
                     <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
+                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100 transition-opacity duration-300"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
@@ -133,29 +135,29 @@
             </summary>
 
             <p class="mt-4 leading-relaxed text-gray-700">
-                Setelah memilih produk, klik tombol "Tambah ke Keranjang" untuk memasukkannya ke dalam keranjang belanja
-                Anda. Anda bisa melanjutkan belanja atau langsung menuju proses checkout
+                Gunakan ruang fitting kami untuk mencoba baju yang Anda pilih. Staf kami akan siap membantu jika Anda
+                membutuhkan ukuran atau model lain.
             </p>
-
-
-
+        </details>
     </div>
-    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4">
-        <details class="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
-            <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                <h2 class="text-lg font-medium">4. Checkout</h2>
+    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4 py-6 shadow-md">
+        <details class="group p-6 rounded-lg transition-shadow duration-300 ease-in-out hover:shadow-lg">
+            <summary class="flex cursor-pointer items-center justify-between gap-2 text-gray-900">
+                <h2
+                    class="text-lg font-semibold transition-transform duration-300 group-open:transform group-open:scale-105">
+                    4. Proses Pembayaran</h2>
 
-                <span class="relative size-5 shrink-0">
+                <span class="relative size-5 shrink-0 flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
+                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0 transition-opacity duration-300"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
 
                     <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
+                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100 transition-opacity duration-300"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
@@ -163,29 +165,29 @@
             </summary>
 
             <p class="mt-4 leading-relaxed text-gray-700">
-                Masuk ke keranjang belanja Anda dan periksa pesanan Anda. Pastikan semua item yang diinginkan telah
-                dimasukkan dengan benar. Klik "Checkout" untuk melanjutkan ke proses pembayaran
+                Setelah Anda memilih produk yang diinginkan, kunjungi kasir untuk proses pembayaran. Kami menerima
+                berbagai metode pembayaran, termasuk tunai, kartu kredit/debit, dan pembayaran digital.
             </p>
-
-
-
+        </details>
     </div>
-    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4">
-        <details class="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
-            <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                <h2 class="text-lg font-medium">5. Masukkan Informasi Pengiriman</h2>
+    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4 py-6 shadow-md">
+        <details class="group p-6 rounded-lg transition-shadow duration-300 ease-in-out hover:shadow-lg">
+            <summary class="flex cursor-pointer items-center justify-between gap-2 text-gray-900">
+                <h2
+                    class="text-lg font-semibold transition-transform duration-300 group-open:transform group-open:scale-105">
+                    5. Ambil dan Nikmati</h2>
 
-                <span class="relative size-5 shrink-0">
+                <span class="relative size-5 shrink-0 flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
+                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0 transition-opacity duration-300"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
 
                     <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
+                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100 transition-opacity duration-300"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
@@ -193,103 +195,12 @@
             </summary>
 
             <p class="mt-4 leading-relaxed text-gray-700">
-                Isi alamat pengiriman dan pilih metode pengiriman yang diinginkan. Kami menawarkan berbagai opsi untuk
-                memastikan barang sampai dengan cepat dan aman.
-            </p>
-
-
-
+                Setelah pembayaran selesai, ambil barang Anda dan nikmati produk baju distro dari kami. Jangan lupa
+                untuk memeriksa kwitansi atau struk sebagai bukti pembelian.
+        </details>
     </div>
-    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4">
-        <details class="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
-            <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                <h2 class="text-lg font-medium">6. Pilih Metode Pembayaran</h2>
-
-                <span class="relative size-5 shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                </span>
-            </summary>
-
-            <p class="mt-4 leading-relaxed text-gray-700">
-                Pilih metode pembayaran yang paling nyaman untuk Anda. Kami menerima berbagai metode pembayaran yang
-                aman dan mudah.
-            </p>
 
 
-
-    </div>
-    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4">
-        <details class="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
-            <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                <h2 class="text-lg font-medium">7. Konfirmasi Pesanan</h2>
-
-                <span class="relative size-5 shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                </span>
-            </summary>
-
-            <p class="mt-4 leading-relaxed text-gray-700">
-                Periksa kembali informasi pesanan Anda dan konfirmasi untuk menyelesaikan pembelian. Anda akan menerima
-                email konfirmasi dengan detail pesanan dan nomor pelacakan.
-            </p>
-
-
-
-    </div>
-    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4">
-        <details class="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
-            <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                <h2 class="text-lg font-medium">8. Tunggu Pengiriman</h2>
-
-                <span class="relative size-5 shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                </span>
-            </summary>
-
-            <p class="mt-4 leading-relaxed text-gray-700">
-                Setelah pesanan Anda diproses, kami akan mengirimkan barang sesuai dengan pilihan pengiriman Anda. Anda
-                dapat melacak status pengiriman melalui email atau akun Anda di situs kami.
-            </p>
-
-
-
-    </div>
     <!-- END QUESTIONS -->
 
     <!-- FOOTER -->
@@ -554,6 +465,7 @@
         </div>
     </footer>
 
-<!-- END FOOTER -->
+    <!-- END FOOTER -->
 </body>
+
 </html>
