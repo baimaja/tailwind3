@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
+
 <body>
     <!-- PROMOTION COMPONENT -->
     <div class="bg-indigo-600 px-4 py-3 text-white">
@@ -24,273 +26,95 @@
                     <a href="index.html" class="text-2xl font-bold text-gray-900 sm:text-3xl">baimstore</a>
 
                     <p class="mt-1.5 text-sm text-gray-500">
-                        Belanja barang langka dan menarik plus murah hanya di sini
+                        Belanja baju impor original distro murah dan berkualitas!
                     </p>
                 </div>
 
                 <div class="flex items-center gap-4">
-                    <button
+                    <A href="cara-belanja.html"
                         class="inline-flex items-center justify-center gap-1.5 rounded border border-gray-200 bg-white px-5 py-3 text-gray-900 transition hover:text-gray-700 focus:outline-none focus:ring"
                         type="button">
                         <span class="text-sm font-medium"> Cara Belanja </span>
-                    </button>
+                    </A>
 
-                    <A href="chat-admin.html"
+                    <button
                         class="inline-block rounded bg-indigo-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
                         type="button">
                         Chat Admin
-                    </A>
+                    </button>
                 </div>
             </div>
         </div>
     </header>
     <!-- END NAVBAR COMPONENT -->
+     <!-- CHAT ADMIN -->
+     <section class="bg-gray-100">
+        <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
+                <div class="lg:col-span-2 lg:py-12">
+                    <p class="max-w-xl text-lg text-gray-700">
+                        Di BAIMSTORE, kami berkomitmen untuk menghadirkan koleksi baju impor terbaik yang
+                        memenuhi selera dan kebutuhan Anda.
+                        Sebagai perusahaan yang sepenuhnya independen, kami memiliki kebebasan untuk memilih dan
+                        merekomendasikan hanya produk-produk berkualitas tinggi dan desain yang terbaru.
+                        Temukan gaya Anda dengan kepercayaan diri, karena setiap pilihan kami adalah hasil dari seleksi
+                        yang ketat dan pemahaman mendalam tentang tren mode global.
+                    </p>
 
-    <!-- QUESTIONS -->
-    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4">
-        <details class="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
-            <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                <h2 class="text-lg font-medium">1. Jelajahi Katalog Kami</h2>
+                    <div class="mt-8">
+                        <H3>ketika ada pertanyaan silahkan hubungi nomor ini!</H3>
+                        <a href="tel:01514754450" class="text-2xl font-bold text-pink-600">+62 822 1093 2945</a>
 
-                <span class="relative size-5 shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-            
+                        <address class="mt-2 text-gray-600"> save Ibrahim</address>
+                    </div>
+                </div>
 
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                </span>
-            </summary>
+                <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+                    <form action="#" class="space-y-4">
+                        <div>
+                            <label class="sr-only" for="name">Name</label>
+                            <input
+                                class="w-full rounded-lg border border-gray-300 bg-gray-50 p-3 text-sm text-gray-900 focus:border-blue-500 focus:ring focus:ring-blue-200"
+                                placeholder="Name" type="text" id="name" />
+                        </div>
 
-            <p class="mt-4 leading-relaxed text-gray-700">
-                Mulailah dengan menelusuri koleksi produk baju yang kami sediakan. Gunakan fitur pencarian atau filter kategori
-                untuk menemukan produk yang sesuai dengan kebutuhan Anda.
-            </p>
+                        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                            <div>
+                                <label class="sr-only" for="email">Email</label>
+                                <input
+                                    class="w-full rounded-lg border border-gray-300 bg-gray-50 p-3 text-sm text-gray-900 focus:border-blue-500 focus:ring focus:ring-blue-200"
+                                    placeholder="Email address" type="email" id="email" />
+                            </div>
 
-            
+                            <div>
+                                <label class="sr-only" for="phone">Phone</label>
+                                <input
+                                    class="w-full rounded-lg border border-gray-300 bg-gray-50 p-3 text-sm text-gray-900 focus:border-blue-500 focus:ring focus:ring-blue-200"
+                                    placeholder="Phone Number" type="tel" id="phone" />
+                            </div>
+                        </div>
 
+                        <div>
+                            <label class="sr-only" for="message">Message</label>
 
+                            <textarea
+                                class="w-full rounded-lg border border-gray-300 bg-gray-50 p-3 text-sm text-gray-900 focus:border-blue-500 focus:ring focus:ring-blue-200"
+                                placeholder="Message" rows="8" id="message"></textarea>
+                        </div>
 
-    </div>
-    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4">
-        <details class="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
-            <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                <h2 class="text-lg font-medium">2. Pilih Produk</h2>
-
-                <span class="relative size-5 shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                </span>
-            </summary>
-
-            <p class="mt-4 leading-relaxed text-gray-700">
-                Klik pada produk yang menarik minat Anda untuk melihat detailnya. Kami menyediakan informasi lengkap
-                mengenai spesifikasi, fitur, dan harga untuk membantu Anda membuat keputusan yang tepat.
-            </p>
-
-
-
-    </div>
-    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4">
-        <details class="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
-            <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                <h2 class="text-lg font-medium">3. Tambahkan ke Keranjang</h2>
-
-                <span class="relative size-5 shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                </span>
-            </summary>
-
-            <p class="mt-4 leading-relaxed text-gray-700">
-                Setelah memilih produk, klik tombol "Tambah ke Keranjang" untuk memasukkannya ke dalam keranjang belanja
-                Anda. Anda bisa melanjutkan belanja atau langsung menuju proses checkout
-            </p>
-
-
-
-    </div>
-    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4">
-        <details class="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
-            <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                <h2 class="text-lg font-medium">4. Checkout</h2>
-
-                <span class="relative size-5 shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                </span>
-            </summary>
-
-            <p class="mt-4 leading-relaxed text-gray-700">
-                Masuk ke keranjang belanja Anda dan periksa pesanan Anda. Pastikan semua item yang diinginkan telah
-                dimasukkan dengan benar. Klik "Checkout" untuk melanjutkan ke proses pembayaran
-            </p>
-
-
-
-    </div>
-    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4">
-        <details class="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
-            <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                <h2 class="text-lg font-medium">5. Masukkan Informasi Pengiriman</h2>
-
-                <span class="relative size-5 shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                </span>
-            </summary>
-
-            <p class="mt-4 leading-relaxed text-gray-700">
-                Isi alamat pengiriman dan pilih metode pengiriman yang diinginkan. Kami menawarkan berbagai opsi untuk
-                memastikan barang sampai dengan cepat dan aman.
-            </p>
-
-
-
-    </div>
-    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4">
-        <details class="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
-            <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                <h2 class="text-lg font-medium">6. Pilih Metode Pembayaran</h2>
-
-                <span class="relative size-5 shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                </span>
-            </summary>
-
-            <p class="mt-4 leading-relaxed text-gray-700">
-                Pilih metode pembayaran yang paling nyaman untuk Anda. Kami menerima berbagai metode pembayaran yang
-                aman dan mudah.
-            </p>
-
-
-
-    </div>
-    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4">
-        <details class="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
-            <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                <h2 class="text-lg font-medium">7. Konfirmasi Pesanan</h2>
-
-                <span class="relative size-5 shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                </span>
-            </summary>
-
-            <p class="mt-4 leading-relaxed text-gray-700">
-                Periksa kembali informasi pesanan Anda dan konfirmasi untuk menyelesaikan pembelian. Anda akan menerima
-                email konfirmasi dengan detail pesanan dan nomor pelacakan.
-            </p>
-
-
-
-    </div>
-    <div class="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white px-4">
-        <details class="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
-            <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                <h2 class="text-lg font-medium">8. Tunggu Pengiriman</h2>
-
-                <span class="relative size-5 shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="absolute inset-0 size-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                </span>
-            </summary>
-
-            <p class="mt-4 leading-relaxed text-gray-700">
-                Setelah pesanan Anda diproses, kami akan mengirimkan barang sesuai dengan pilihan pengiriman Anda. Anda
-                dapat melacak status pengiriman melalui email atau akun Anda di situs kami.
-            </p>
-
-
-
-    </div>
-    <!-- END QUESTIONS -->
+                        <div class="mt-4">
+                            <button type="submit"
+                                class="inline-block w-full rounded-lg bg-black px-5 py-3 font-medium text-white hover:bg-gray-800 focus:ring focus:ring-gray-300 sm:w-auto">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END CHAT ADMIN -->
+    
 
     <!-- FOOTER -->
     <footer class="bg-gray-200">
@@ -554,6 +378,10 @@
         </div>
     </footer>
 
-<!-- END FOOTER -->
+    <!-- END FOOTER -->
+
+
+
 </body>
+
 </html>
